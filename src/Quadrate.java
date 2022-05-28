@@ -1,4 +1,4 @@
-public class Kvadrat implements Square{
+public class Quadrate implements Square{
     @Override
     public double square(double a, double b) {
         double areaQuadrat=a*b;

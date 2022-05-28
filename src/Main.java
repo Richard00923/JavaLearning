@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
 
@@ -20,9 +18,9 @@ public class Main {
         MakeArrTwo arr2= new MakeArrTwo();
 
         test(arr1);
-
-        Kvadrat quadrate=new Kvadrat();
-        System.out.println("The area of the square is equal to "+quadrate.square(10, 10));
+        //Hello im new change
+        Quadrate square=new Quadrate();
+        System.out.println("The area of the square is equal to "+square.square(10, 10));
     }
 
     public static void test (InterfaceNew arg) {
