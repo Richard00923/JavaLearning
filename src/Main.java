@@ -16,7 +16,6 @@ public class Main {
 
         MakeArrOne arr1=new MakeArrOne();
         arr1.length =10;
-        //System.out.println(Arrays.toString(arr1.Get()));
 
         MakeArrTwo arr2= new MakeArrTwo();
 
