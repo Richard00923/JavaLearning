@@ -20,7 +20,7 @@ public class Main {
         MakeArrTwo arr2= new MakeArrTwo();
 
         test(arr1);
-
+        //Hello im new change
         Kvadrat quadrate=new Kvadrat();
         System.out.println("The area of the square is equal to "+quadrate.square(10, 10));
     }
