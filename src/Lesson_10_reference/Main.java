@@ -45,7 +45,8 @@ public class Main {
         }
     }
 
-    public static void nameEditing(User args, String newName) {//-стоврити метод, який приймає об'єкт користувача та змінює йому їм'я на те, яке ви визначите.Метод нічого не повертає!
+    //create a method that takes a user object and changes it that you define. The method returns nothing!
+    public static void nameEditing(User args, String newName) {
         args.name = newName;
     }
 }
