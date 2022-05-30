@@ -9,14 +9,14 @@ public class Main {
         //System.out.println(Arrays.toString(arr));
     }
 
-    //create a method that gets an empty array, and fills it with random numbers. The method does not return anything!
+    //create a method that gets an empty array, and fills it with random numbers. The method does not return anything
     public static void randomMethod(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = (int) (Math.random() * 10);
         }
     }
 
-    //create a method that gets an empty array and fills it with even numbers. The method does not return anything!
+    //create a method that gets an empty array and fills it with even numbers. The method does not return anything
     public static void pairMethod(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             int randomNum = (int) (Math.random() * 100);
@@ -32,7 +32,7 @@ public class Main {
         }
     }
 
-    //create a method that gets an empty array and fills it with odd numbers. The method does not return anything!
+    //create a method that gets an empty array and fills it with odd numbers. The method does not return anything
     public static void notEvenMethod(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             int randomNum = (int) (Math.random() * 10);
@@ -45,7 +45,7 @@ public class Main {
         }
     }
 
-    //create a method that takes a user object and changes it that you define. The method returns nothing!
+    //create a method that takes a user object and changes it that you define. The method returns nothing
     public static void nameEditing(User args, String newName) {
         args.name = newName;
     }
