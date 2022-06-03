@@ -1,25 +1,28 @@
+package lesson_9_interface;
+
 public class Main {
     public static void main(String[] args) {
 
         Animal pes = new Animal();
-        pes.name = "Sobaka";
-        pes.setMessage("Hello im Sobaka");
+        pes.name = "Dog";
+        pes.setMessage("Hello I'm Dog");
         pes.scream();
         System.out.println();
+        pes.setMessage("Gav,gav,gav");
 
         Amphibian frog = new Amphibian();
         frog.year = 10;
-        frog.setMessage("hello im lyagushka");
+        frog.setMessage("hello I'm Frog");
         frog.scream();
 
-        MakeArrOne arr1=new MakeArrOne();
-        arr1.length =10;
+        MakeArrOne arrOne=new MakeArrOne();
+        arrOne.length =10;
 
-        MakeArrTwo arr2= new MakeArrTwo();
+        MakeArrTwo arrTwo= new MakeArrTwo();
 
-        test(arr1);
+        test(arrOne);
         //Hello im new change
-        Quadrate square=new Quadrate();
+        Quadrat square=new Quadrat();
         System.out.println("The area of the square is equal to "+square.square(10, 10));
     }
 
